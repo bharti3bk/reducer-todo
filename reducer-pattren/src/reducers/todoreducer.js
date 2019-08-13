@@ -9,7 +9,7 @@ export const initialState = {
     task: ""
   }; 
 
-  function Reducer(state , action){
+  function reducerTodo(state , action){
    switch(action.type){
        case "ADD" :
            return{
@@ -30,4 +30,5 @@ export const initialState = {
            default :
             return state;
    }
-  }
+  } 
+  export default reducerTodo;
