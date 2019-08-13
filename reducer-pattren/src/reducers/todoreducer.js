@@ -7,4 +7,27 @@ export const initialState = {
       }
     ],
     task: ""
-  };
+  }; 
+
+  function Reducer(state , action){
+   switch(action.type){
+       case "ADD" :
+           return{
+
+           }
+        case "CLEAR" : 
+            return {
+
+            }  
+         case "UPDATE" :
+             return{
+
+             }
+         case "TOGGLE" :
+             return{
+
+             }
+           default :
+            return state;
+   }
+  }
